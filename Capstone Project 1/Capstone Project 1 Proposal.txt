@@ -1,0 +1,23 @@
+Capstone Project 1 Proposal
+ 
+Improving Inventory Management for Automotive Aftermarket Retailers
+
+Problem:
+The client is a software development company that develops point of sale systems including core inventory management functionality for automotive aftermarket retailers. Currently, the inventory management systems offer standard reorder functionality based on threshold (or minimum) and maximum  inventory quantities for each auto part in the system. The client would like to leverage its current and historical sales data to incorporate more sophisticated reorder functionality and develop effective sales promotions.
+
+Sales Trends. The client would like to identify parts that have sustained upwards or downwards sales trends to enable more efficient decisions about reordering parts that are selling well and returning excess inventory to wholesalers for parts for which sales have slowed.   
+
+Demand Forecasting. The client would like to determine which, if any, parts show consistent seasonal spikes in sales in order to evaluate setting dynamic inventory thresholds for individual parts based on seasonal demand.
+
+Linked Sales. The client would like to identify parts that are often purchased  together in order to develop effective sales promotions and, possibly, to implement a recommender system at a future date.
+
+Data:
+Proprietary tab-delimited text files provided by the client. One file for each retail location containing fields for Location ID, State, Zip, Invoice ID, Invoice Date, Line Code, Part Number, Quantity Sold, and Part Description.
+
+Approach: 
+Regression analysis will be used to explore sales volume (Quantity Sold), grouped by Location ID and Line Code/Part Number, over time. A market basket analysis will be used to explore which parts, identified by Line Code and Part Number, are often purchased together, as identified by a common Invoice ID.
+
+Deliverables:
+Python code for data wrangling, exploratory data analysis, and final product
+Capstone Project report
+Capstone Project presentation
